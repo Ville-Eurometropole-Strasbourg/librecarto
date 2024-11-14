@@ -1,4 +1,4 @@
-<qgis projectname="" saveDateTime="2024-11-14T17:00:16" saveUser="351698" saveUserFull="LONGOUR Lucas" version="3.20.3-Odense">
+<qgis projectname="" saveDateTime="2024-11-14T16:50:51" saveUser="351698" saveUserFull="LONGOUR Lucas" version="3.20.3-Odense">
   <homePath path=""></homePath>
   <title></title>
   <autotransaction active="0"></autotransaction>
@@ -42,7 +42,7 @@
         </Option>
       </customproperties>
     </layer-tree-layer>
-    <layer-tree-layer checked="Qt::Checked" expanded="0" id="batiment_bee40779_bd49_4519_a331_10af49ef2312" legend_exp="" legend_split_behavior="0" name="osm — batiment" patch_size="-1,-1" providerKey="ogr" source="./osm.gpkg|layername=batiment">
+    <layer-tree-layer checked="Qt::Unchecked" expanded="0" id="batiment_bee40779_bd49_4519_a331_10af49ef2312" legend_exp="" legend_split_behavior="0" name="osm — batiment" patch_size="-1,-1" providerKey="ogr" source="./osm.gpkg|layername=batiment">
       <customproperties>
         <Option></Option>
       </customproperties>
@@ -86,15 +86,15 @@
   </layer-tree-group>
   <snapping-settings enabled="1" intersection-snapping="0" maxScale="0" minScale="0" mode="2" scaleDependencyMode="0" self-snapping="0" tolerance="10" type="0" unit="1">
     <individual-layer-settings>
-      <layer-setting enabled="1" id="zone_activite_5826803b_8586_48fd_a196_c008d88b1236" maxScale="0" minScale="0" tolerance="10" type="0" units="1"></layer-setting>
-      <layer-setting enabled="1" id="surface_batie_6ae5fc02_c829_468c_a638_96cc7ade29cd" maxScale="0" minScale="0" tolerance="10" type="0" units="1"></layer-setting>
-      <layer-setting enabled="1" id="routes_6c5b1295_74d0_488b_9396_9499bb855c98" maxScale="0" minScale="0" tolerance="10" type="0" units="1"></layer-setting>
       <layer-setting enabled="1" id="limite_communale_adcdc2ed_6c04_4b96_ac7d_b63e3eef6e5b" maxScale="0" minScale="0" tolerance="10" type="0" units="1"></layer-setting>
-      <layer-setting enabled="1" id="voie_ferree_8c90c472_ff2e_4bf3_bccf_a27b8f954970" maxScale="0" minScale="0" tolerance="10" type="0" units="1"></layer-setting>
-      <layer-setting enabled="1" id="batiment_bee40779_bd49_4519_a331_10af49ef2312" maxScale="0" minScale="0" tolerance="10" type="0" units="1"></layer-setting>
-      <layer-setting enabled="1" id="amenagement_espace_vert_d7c55cca_a3ea_44cd_870d_a5b3a09551af" maxScale="0" minScale="0" tolerance="10" type="0" units="1"></layer-setting>
       <layer-setting enabled="1" id="limite_cus_68afa87c_97f4_436b_9122_418b5d952cdf" maxScale="0" minScale="0" tolerance="10" type="0" units="1"></layer-setting>
+      <layer-setting enabled="1" id="routes_6c5b1295_74d0_488b_9396_9499bb855c98" maxScale="0" minScale="0" tolerance="10" type="0" units="1"></layer-setting>
+      <layer-setting enabled="1" id="zone_activite_5826803b_8586_48fd_a196_c008d88b1236" maxScale="0" minScale="0" tolerance="10" type="0" units="1"></layer-setting>
+      <layer-setting enabled="1" id="batiment_bee40779_bd49_4519_a331_10af49ef2312" maxScale="0" minScale="0" tolerance="10" type="0" units="1"></layer-setting>
       <layer-setting enabled="1" id="surface_eau_3c837e08_f395_4da5_99d4_9e9fea86be4b" maxScale="0" minScale="0" tolerance="10" type="0" units="1"></layer-setting>
+      <layer-setting enabled="1" id="amenagement_espace_vert_d7c55cca_a3ea_44cd_870d_a5b3a09551af" maxScale="0" minScale="0" tolerance="10" type="0" units="1"></layer-setting>
+      <layer-setting enabled="1" id="voie_ferree_8c90c472_ff2e_4bf3_bccf_a27b8f954970" maxScale="0" minScale="0" tolerance="10" type="0" units="1"></layer-setting>
+      <layer-setting enabled="1" id="surface_batie_6ae5fc02_c829_468c_a638_96cc7ade29cd" maxScale="0" minScale="0" tolerance="10" type="0" units="1"></layer-setting>
     </individual-layer-settings>
   </snapping-settings>
   <relations></relations>
@@ -102,10 +102,10 @@
   <mapcanvas annotationsVisible="1" name="theMapCanvas">
     <units>meters</units>
     <extent>
-      <xmin>2049078.62722892896272242</xmin>
-      <ymin>7273735.68156354874372482</ymin>
-      <xmax>2052410.95159032405354083</xmax>
-      <ymax>7276935.49948348104953766</ymax>
+      <xmin>2042895.07504362124018371</xmin>
+      <ymin>7273538.98687376547604799</ymin>
+      <xmax>2049559.72376641142182052</xmax>
+      <ymax>7279938.62271363008767366</ymax>
     </extent>
     <rotation>0</rotation>
     <destinationsrs>
@@ -2241,9 +2241,9 @@
         <legendlayerfile isInOverview="0" layerid="limite_communale_adcdc2ed_6c04_4b96_ac7d_b63e3eef6e5b" visible="1"></legendlayerfile>
       </filegroup>
     </legendlayer>
-    <legendlayer checked="Qt::Checked" drawingOrder="-1" name="osm — batiment" open="false" showFeatureCount="0">
+    <legendlayer checked="Qt::Unchecked" drawingOrder="-1" name="osm — batiment" open="false" showFeatureCount="0">
       <filegroup hidden="false" open="false">
-        <legendlayerfile isInOverview="0" layerid="batiment_bee40779_bd49_4519_a331_10af49ef2312" visible="1"></legendlayerfile>
+        <legendlayerfile isInOverview="0" layerid="batiment_bee40779_bd49_4519_a331_10af49ef2312" visible="0"></legendlayerfile>
       </filegroup>
     </legendlayer>
     <legendlayer checked="Qt::Unchecked" drawingOrder="-1" name="osm — voie_ferree" open="false" showFeatureCount="0">
@@ -17597,7 +17597,7 @@ def my_form_open(dialog, layer, feature):
   <Bookmarks></Bookmarks>
   <ProjectViewSettings UseProjectScales="0">
     <Scales></Scales>
-    <DefaultViewExtent xmax="2052657.1511782449670136" xmin="2048832.42764100804924965" ymax="7276935.49948348104953766" ymin="7273735.68156354874372482">
+    <DefaultViewExtent xmax="2050259.16998413112014532" xmin="2042195.62882590154185891" ymax="7279938.62271363008767366" ymin="7273538.98687376547604799">
       <spatialrefsys>
         <wkt>PROJCRS["RGF93 / CC48",BASEGEOGCRS["RGF93",DATUM["Reseau Geodesique Francais 1993",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4171]],CONVERSION["France Conic Conformal zone 7",METHOD["Lambert Conic Conformal (2SP)",ID["EPSG",9802]],PARAMETER["Latitude of false origin",48,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8821]],PARAMETER["Longitude of false origin",3,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8822]],PARAMETER["Latitude of 1st standard parallel",47.25,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8823]],PARAMETER["Latitude of 2nd standard parallel",48.75,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8824]],PARAMETER["Easting at false origin",1700000,LENGTHUNIT["metre",1],ID["EPSG",8826]],PARAMETER["Northing at false origin",7200000,LENGTHUNIT["metre",1],ID["EPSG",8827]]],CS[Cartesian,2],AXIS["easting (X)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["northing (Y)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Cadastre, engineering survey."],AREA["France - mainland onshore between 47°N and 49°N."],BBOX[47,-4.87,49,8.23]],ID["EPSG",3948]]</wkt>
         <proj4>+proj=lcc +lat_0=48 +lon_0=3 +lat_1=47.25 +lat_2=48.75 +x_0=1700000 +y_0=7200000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
