@@ -3,3 +3,4 @@
 *.qgs~
 *.zip
 *.osm.pbf
+.env
