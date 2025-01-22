@@ -2,7 +2,7 @@ local var_srid = 3857
 local var_schema = 'osm_import'
 
 local route = osm2pgsql.define_way_table('route', {
-    { column = 'type',    type = 'text' },
+    { column = 'highway',    type = 'text' },
     { column = 'name',    type = 'text' },
     { column = 'name_gsw', type = 'text' },
     { column = 'tags',    type = 'jsonb' },
@@ -27,7 +27,7 @@ function osm2pgsql.process_way(object)
     end
 
     route:insert({
-        type    = highway_type,
+        highway    = highway_type,
         tags    = object.tags,
         name    = object.tags.name,
         name_gsw = object.tags['name:gsw'],

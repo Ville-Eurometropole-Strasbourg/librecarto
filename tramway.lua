@@ -7,6 +7,7 @@ local tram_voie = osm2pgsql.define_way_table('tram_voie', {
     { column = 'usage', type = 'text' },
     { column = 'construction', type = 'text' },
     { column = 'proposed', type = 'text' },
+    { column = 'tags',    type = 'jsonb' },
     { column = 'geom', type = 'linestring', projection = var_srid }
 })
 
@@ -14,6 +15,7 @@ local tram_voie = osm2pgsql.define_way_table('tram_voie', {
 local tram_stops = osm2pgsql.define_node_table('tram_stops', {
     { column = 'name', type = 'text' },
     { column = 'railway', type = 'text' },
+    { column = 'tags',    type = 'jsonb' },
     { column = 'geom', type = 'point', projection = var_srid }
 })
 
@@ -27,6 +29,7 @@ function osm2pgsql.process_way(object)
             usage = object.tags.usage,
             construction = object.tags.construction,
             proposed = object.tags.proposed,
+            tags    = object.tags,
             geom = object:as_linestring()
         })
     end
@@ -37,6 +40,7 @@ function osm2pgsql.process_node(object)
         tram_stops:insert({
             name = object.tags.name,
             railway = object.tags.railway,
+            tags    = object.tags,
             geom = object:as_point()
         })
     end

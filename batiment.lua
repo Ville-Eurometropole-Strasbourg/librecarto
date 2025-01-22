@@ -10,6 +10,7 @@ local batiment = osm2pgsql.define_area_table('batiment', {
     { column = 'office', sql_type = 'text' },
     { column = 'tourism', sql_type = 'text' },
     { column = 'leisure', sql_type = 'text' },
+    { column = 'tags',    type = 'jsonb' },
 }, { indexes = {
     -- So we get an index on the id column
     { column = 'id', method = 'btree', unique = true },
@@ -21,6 +22,7 @@ local batiment = osm2pgsql.define_area_table('batiment', {
 function osm2pgsql.process_way(object)
     if object.is_closed and object.tags.building then
         batiment:insert({
+            tags    = object.tags,
             geom = object:as_polygon(),
             building = object.tags.building,
             amenity = object.tags.amenity,
@@ -38,6 +40,7 @@ function osm2pgsql.process_relation(object)
         -- ...et les divisons en polygones que nous insérons dans la table
         for geom in mp:geometries() do
             batiment:insert({
+                tags    = object.tags,
                 geom = geom,
                 building = object.tags.building,
                 amenity = object.tags.amenity,
