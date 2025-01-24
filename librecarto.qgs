@@ -1,4 +1,4 @@
-<qgis projectname="" saveDateTime="2025-01-22T11:27:59" saveUser="351698" saveUserFull="LONGOUR Lucas" version="3.28.4-Firenze">
+<qgis projectname="" saveDateTime="2025-01-22T14:19:31" saveUser="351698" saveUserFull="LONGOUR Lucas" version="3.28.4-Firenze">
   <homePath path=""></homePath>
   <title></title>
   <transaction mode="Disabled"></transaction>
@@ -99,10 +99,10 @@
   <mapcanvas annotationsVisible="1" name="theMapCanvas">
     <units>meters</units>
     <extent>
-      <xmin>2048386.77609834144823253</xmin>
-      <ymin>7271638.90617685671895742</ymin>
-      <xmax>2051719.10045973653905094</xmax>
-      <ymax>7274838.72409679647535086</ymax>
+      <xmin>2050214.43680437793955207</xmin>
+      <ymin>7273043.06156995799392462</ymin>
+      <xmax>2053546.76116577303037047</xmax>
+      <ymax>7276242.87948989775031805</ymax>
     </extent>
     <rotation>0</rotation>
     <destinationsrs>
@@ -4842,7 +4842,7 @@ def my_form_open(dialog, layer, feature):
           <actionScope id="Layer"></actionScope>
         </actionsetting>
       </attributeactions>
-      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="&quot;leisure&quot;" sortOrder="1">
         <columns>
           <column hidden="0" name="natural" type="field" width="-1"></column>
           <column hidden="0" name="landuse" type="field" width="-1"></column>
@@ -11916,7 +11916,7 @@ def my_form_open(dialog, layer, feature):
   <Bookmarks></Bookmarks>
   <ProjectViewSettings UseProjectScales="0" rotation="0">
     <Scales></Scales>
-    <DefaultViewExtent xmax="2051965.30004766187630594" xmin="2048140.57651041611097753" ymax="7274838.72409679647535086" ymin="7271638.90617685671895742">
+    <DefaultViewExtent xmax="2053792.96075369836762547" xmin="2049968.23721645260229707" ymax="7276242.87948989775031805" ymin="7273043.06156995799392462">
       <spatialrefsys nativeFormat="Wkt">
         <wkt>PROJCRS["RGF93 v1 / CC48",BASEGEOGCRS["RGF93 v1",DATUM["Reseau Geodesique Francais 1993 v1",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4171]],CONVERSION["France Conic Conformal zone 7",METHOD["Lambert Conic Conformal (2SP)",ID["EPSG",9802]],PARAMETER["Latitude of false origin",48,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8821]],PARAMETER["Longitude of false origin",3,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8822]],PARAMETER["Latitude of 1st standard parallel",47.25,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8823]],PARAMETER["Latitude of 2nd standard parallel",48.75,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8824]],PARAMETER["Easting at false origin",1700000,LENGTHUNIT["metre",1],ID["EPSG",8826]],PARAMETER["Northing at false origin",7200000,LENGTHUNIT["metre",1],ID["EPSG",8827]]],CS[Cartesian,2],AXIS["easting (X)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["northing (Y)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Cadastre, engineering survey."],AREA["France - mainland onshore between 47°N and 49°N."],BBOX[47,-4.87,49,8.23]],ID["EPSG",3948]]</wkt>
         <proj4>+proj=lcc +lat_0=48 +lon_0=3 +lat_1=47.25 +lat_2=48.75 +x_0=1700000 +y_0=7200000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
